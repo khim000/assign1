@@ -1,0 +1,244 @@
+/* style of home.ejs */
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3a3a3a; /* Dark background color */
+  }
+  
+  .nav-item .nav-link {
+    color: #ff5733; /* Orange color */
+  }
+  
+  .nav-item .nav-link:hover {
+    transform: scale(1.05);
+    background-color: #ffa07a; /* Light Salmon color */
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .frame {
+    height: 500px;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to top, #444, #222);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333; /* Dark Gray color */
+    color: #fff; /* White color */
+    margin: 10px;
+    box-shadow: 0px 50px 50px 12px rgba(13, 12, 12, 0.3);
+  }
+  
+  #color {
+    color: #da1919; /* Dark Red color */
+  }
+  
+  .pad {
+    padding: 20px;
+  }
+  
+  #welcome {
+    margin-bottom: -5px;
+  }
+  
+  .btn {
+    margin-left: 25px;
+    background-color: #ff5733; /* Orange color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #ffa07a; /* Light Salmon color */
+  }
+  
+  /* end of home.ejs */
+  
+  /* css of about.ejs */
+  
+  .detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #pic {
+    margin-top: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 25px 25px -10px rgba(62, 61, 61, 0.502);
+    height: 400px;
+    width: 400px;
+    background-image: url("/images/mypic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f5ecdab0; /* Light Beige color */
+  }
+  
+  #colorA {
+    color: #da1919; /* Dark Red color */
+  }
+  
+  #h2A, .pA {
+    padding: 20px;
+    color: #333; /* Dark text color */
+    font-size: 20px;
+  }
+  
+  .btnA {
+    margin-bottom: 10px;
+    background-color: #ff5733; /* Orange color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btnA:hover {
+    background-color: #ffa07a; /* Light Salmon color */
+  }
+  
+  /* end of about.ejs */
+  
+  /* css for project.ejs */
+  
+  .container {
+    margin: auto;
+    margin-top: 20px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .projects {
+    display: flex;
+    color: #333333;
+    background-color: #f2f2f2; /* Light Gray color */
+    width: 550px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 25px 25px -10px rgba(13, 12, 12, 0.3);
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #blogplatform {
+    background-image: url("/images/blogimage.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #onlinequiz {
+    background-image: url("/images/quiz.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #weather {
+    background-image: url("/images/weatherimage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .projects:hover {
+    transform: scale(1.03);
+  }
+  
+  .pp {
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 25px 25px -10px rgba(13, 12, 12, 0.3);
+  }
+  
+  #spanc {
+    font-weight: bolder;
+    color: #da1919; /* Dark Red color */
+  }
+  
+  /* end of project.ejs */
+  
+  /* css for service */
+  
+  .custom-navbar {
+    background-color: #fbedca; /* Light Yellow color */
+    border-bottom: 5px solid #ff5733; /* Orange color */
+  }
+  
+  .container-fluid .navbar-brand {
+    color: #da1919; /* Dark Red color */
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .card-img-top {
+    height: 280px;
+  }
+  
+  #logo {
+    width: fit-content;
+    height: 60px;
+  }
+  
+  .card {
+    box-shadow: 0px 25px 25px -10px rgba(13, 12, 12, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  /* end of service */
+  
+  /* css for contact */
+  
+  #top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mb-3 {
+    width: 500px;
+  }
+  
+  #bigbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-control {
+    border-radius: 20px;
+  }
+  
+  #success-message {
+    color: green;
+    font-weight: bold;
+  }
+  
+  /* end for contact */  
